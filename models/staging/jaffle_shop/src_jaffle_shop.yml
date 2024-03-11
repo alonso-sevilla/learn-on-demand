@@ -1,11 +1,11 @@
 version: 2
 
 sources:
-    - name: jaffle_shop
+    - name: jaffle_shop_AS
       description: A clone of a Postgres application database.
-      database: raw
+      database: raw_AS
       tables:
-        - name: customers
+        - name: customers_AS
           description: Raw customers data.
           columns:
             - name: id
